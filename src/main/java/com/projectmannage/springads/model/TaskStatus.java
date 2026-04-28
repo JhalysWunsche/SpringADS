@@ -1,4 +1,4 @@
-package com.example.springads.model;
+package com.projectmannage.springads.model;
 
 public enum TaskStatus {
     PEDDING,

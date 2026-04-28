@@ -1,4 +1,4 @@
-package com.example.springads.domain.entity;
+package com.projectmannage.springads.domain.entity;
 
 import java.util.List;
 

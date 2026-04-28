@@ -1,4 +1,4 @@
-package com.example.springads;
+package com.projectmannage.springads;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;

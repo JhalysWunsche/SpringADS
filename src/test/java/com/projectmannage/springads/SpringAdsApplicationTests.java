@@ -1,4 +1,4 @@
-package com.example.springads;
+package com.projectmannage.springads;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

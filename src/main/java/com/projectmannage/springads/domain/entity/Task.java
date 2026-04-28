@@ -1,6 +1,6 @@
-package com.example.springads.domain.entity;
+package com.projectmannage.springads.domain.entity;
 
-import com.example.springads.model.TaskStatus;
+import com.projectmannage.springads.model.TaskStatus;
 
 public class Task {
     private String id;
