@@ -9,5 +9,4 @@ class SpringAdsApplicationTests {
     @Test
     void contextLoads() {
     }
-
 }
