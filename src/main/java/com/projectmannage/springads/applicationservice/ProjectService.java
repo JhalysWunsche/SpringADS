@@ -25,7 +25,6 @@ public class ProjectService {
                 .finalDate(saveProjectData.getFinalDate())
                 .status(ProjectStatus.PEDDING)
                 .build();
-
         projectRepository.save(project);
         return project;
     }
