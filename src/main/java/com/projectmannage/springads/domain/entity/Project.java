@@ -1,6 +1,6 @@
 package com.projectmannage.springads.domain.entity;
 
-import com.projectmannage.springads.model.ProjectStatus;
+import com.projectmannage.springads.domain.model.ProjectStatus;
 import jakarta.persistence.*;
 import lombok.*;
 

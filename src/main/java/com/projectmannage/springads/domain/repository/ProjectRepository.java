@@ -1,4 +1,4 @@
-package com.projectmannage.springads.repository;
+package com.projectmannage.springads.domain.repository;
 
 import com.projectmannage.springads.domain.entity.Project;
 import org.springframework.data.jpa.repository.JpaRepository;
