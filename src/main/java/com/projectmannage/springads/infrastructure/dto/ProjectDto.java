@@ -1,9 +1,12 @@
 package com.projectmannage.springads.infrastructure.dto;
 
+import com.projectmannage.springads.domain.entity.Project;
 import com.projectmannage.springads.domain.model.ProjectStatus;
+import lombok.Data;
 
 import java.time.LocalDate;
 
+@Data
 public class ProjectDto {
     private final String id;
     private final String name;
@@ -12,4 +15,15 @@ public class ProjectDto {
     private final LocalDate fialDate;
     private final ProjectStatus status;
 
+    public static ProjectDto create(Project project){
+        return new ProjectDto(
+                project.getId(),
+                project.getName(),
+                project.getDescription(),
+                project.getInitialDate(),
+                project.getFinalDate(),
+                project.getStatus()
+        );
 }
+}
+

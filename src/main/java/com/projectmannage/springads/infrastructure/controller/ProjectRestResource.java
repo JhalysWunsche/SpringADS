@@ -15,7 +15,7 @@ import com.projectmannage.springads.infrastructure.dto.ProjectDto;
 import static com.projectmannage.springads.infrastructure.constant.RestConstants.*;
 
 @RestController
-@RequestMapping("/api/projects")
+@RequestMapping("/projects")
 @AllArgsConstructor
 public class ProjectRestResource {
     private  final ProjectService projectService;
@@ -23,6 +23,6 @@ public class ProjectRestResource {
     @PostMapping
     public ResponseEntity<ProjectDto> createProject(@RequestBody SaveProjectDataDto saveProjectDataDTO){
         Project project = projectService.createProject(saveProjectDataDTO);
-        return ResponseEntity.created(URI.create(PATH_PROJECTS + "/" + project.getId())).body(ProjectDto.create.(project));
+        return ResponseEntity.created(URI.create(PATH_PROJECTS + "/" + project.getId())).body(ProjectDto.create(project));
     }
 }
