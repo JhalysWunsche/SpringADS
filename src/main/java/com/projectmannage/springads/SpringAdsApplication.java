@@ -11,3 +11,4 @@ public class SpringAdsApplication {
     }
 
 }
+// comentario de teste do terminal git
